@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # read in the data from the file
-df = pd.read_csv("romplus.txt", delimiter="\t")
+df = pd.read_csv("data.txt", delimiter="\t")
 
 # remove duplicates based on the DATE column
 #df.drop_duplicates(subset="DATE", inplace=True)
